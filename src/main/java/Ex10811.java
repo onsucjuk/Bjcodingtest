@@ -1,9 +1,8 @@
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Ex10811 {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
