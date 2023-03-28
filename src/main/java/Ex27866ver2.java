@@ -11,7 +11,7 @@ public class Ex27866ver2 {
         int num = Integer.parseInt(br.readLine());
 
         System.out.println(st.substring(num-1, num));
-        // st.chatAt(num-1); 대체 사용 가능
+        // st.chatAt(num-1); import java.util.*; 추가 후 대체 사용 가능
 
 
 
