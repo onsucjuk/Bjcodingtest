@@ -10,7 +10,7 @@ public class Exsort01 {
         int c = sc.nextInt();
         // 입력 받을 숫자의 수 맨 첫줄에 제시 숫자 길이 늘어나도 입력 수 제시해주면 계산되게 해주고 싶었음 예시의 경우 5 입력
         int [] arr = new int[c]; // 입력 받는 수를 하나씩 저장할 배열 선언 [배열 크기는 첫 줄 선언해 준 숫자의 수를 받음]
-        String s = sc.next(); // 59071의 경우 경계값이 없으므로 substring 인덱스로 구분해야 됌 charAt써봤는데 스트링 변환법을 모르겠음..
+        String s = sc.next(); // 59071의 경우 경계값이 없으므로 charAt 인덱스로 구분해야 됌
 
         for(i = 0; i < c; i++) { // c = 5라면 5개의 숫자 > 배열 크기 5 > 0,1,2,3,4 각각 스캐너로 받아서 하나씩 저장
             arr[i] = Integer.parseInt(s.substring(i,i+1));
@@ -41,6 +41,5 @@ public class Exsort01 {
         }
         sc.close();
         //왜 닫는지는 모르겠는데 항상 닫아주라길래 받았습니다. 메모리 누수?
-
     }
 }

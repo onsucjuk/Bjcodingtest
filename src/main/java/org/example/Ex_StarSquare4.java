@@ -1,6 +1,8 @@
+package org.example;
+
 import java.util.Scanner;
 
-public class Main {
+public class Ex_StarSquare4 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int row = sc.nextInt();
@@ -11,7 +13,7 @@ public class Main {
                 for(int j = p-i; j > 0; j--){
                     System.out.print(" ");
                 }
-                for(int k = 0; k < 2*i-1 ; k++){
+                for(int k = 0; k < 2*i-1; k++){
                     System.out.print("*");
                 }
             } else {
@@ -26,5 +28,3 @@ public class Main {
         }
     }
 }
-
-

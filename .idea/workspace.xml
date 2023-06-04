@@ -4,20 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b4099cf-a68a-4106-9709-3c2d4df86665" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ex10813.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="8b4099cf-a68a-4106-9709-3c2d4df86665" name="Changes" comment="06.05 잔디 심기&#10;백준 10813&#10;세 정수 입력받고 두번 째로 큰 정수 출력">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bj_Argorithm/impl/Ex_10817.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ex10809ver2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ex10809ver3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ex1152.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_multi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_noneduplver2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex_StarSquare4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex_hashmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex_hashmap2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex_hashmap3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex_nonedup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex_set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex_star12321.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex_starsquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex_starsquare2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex_starsquare3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exsort01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exsort01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,21 +54,111 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2NR8pthYJSQGJpSbuiuD14nyRA3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/myJavaPRJ&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.Ex_10817">
+    <configuration name="Ex_10817" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bj_Argorithm.impl.Ex_10817" />
+      <module name="Bjcodingtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bj_Argorithm.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex_10872" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bj_Argorithm.impl.Ex_10872" />
+      <module name="Bjcodingtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bj_Argorithm.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex_14425" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bj_Set.Ex_14425" />
+      <module name="Bjcodingtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bj_Set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex_2558" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bj_Argorithm.impl.Ex_2558" />
+      <module name="Bjcodingtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bj_Argorithm.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex_9012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bj_Stack.Ex_9012" />
+      <module name="Bjcodingtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bj_Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Ex_10817" />
+        <item itemvalue="Application.Ex_2558" />
+        <item itemvalue="Application.Ex_10872" />
+        <item itemvalue="Application.Ex_9012" />
+        <item itemvalue="Application.Ex_14425" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,10 +168,402 @@
       <option name="presentableId" value="Default" />
       <updated>1679615722256</updated>
       <workItem from="1679615723500" duration="124000" />
+      <workItem from="1679615878986" duration="230000" />
+      <workItem from="1679629463979" duration="52000" />
+      <workItem from="1679629793605" duration="220000" />
+      <workItem from="1679873654446" duration="543000" />
+      <workItem from="1679874245090" duration="8402000" />
+      <workItem from="1679959242980" duration="1850000" />
+      <workItem from="1680046543610" duration="658000" />
+      <workItem from="1680047219632" duration="658000" />
+      <workItem from="1680048983429" duration="26000" />
+      <workItem from="1680132624785" duration="1026000" />
+      <workItem from="1680143050134" duration="8000" />
+      <workItem from="1680216135765" duration="974000" />
+      <workItem from="1680219886100" duration="11000" />
+      <workItem from="1680475830181" duration="4607000" />
+      <workItem from="1680481671483" duration="29000" />
+      <workItem from="1680500564829" duration="8000" />
+      <workItem from="1680563464112" duration="1821000" />
+      <workItem from="1680649781492" duration="3233000" />
+      <workItem from="1680751684549" duration="1564000" />
+      <workItem from="1680820658834" duration="2431000" />
+      <workItem from="1680823106157" duration="824000" />
+      <workItem from="1680824093167" duration="1973000" />
+      <workItem from="1681080205155" duration="1599000" />
+      <workItem from="1681166561806" duration="2103000" />
+      <workItem from="1681255368011" duration="2542000" />
+      <workItem from="1681258691484" duration="168000" />
+      <workItem from="1681265599496" duration="218000" />
+      <workItem from="1681342888714" duration="3888000" />
+      <workItem from="1681349203384" duration="120000" />
+      <workItem from="1681428937144" duration="1995000" />
+      <workItem from="1681431253947" duration="2085000" />
+      <workItem from="1681697742255" duration="1637000" />
+      <workItem from="1681708396532" duration="7254000" />
+      <workItem from="1681715707408" duration="50000" />
+      <workItem from="1681782582777" duration="1102000" />
+      <workItem from="1681783701857" duration="823000" />
+      <workItem from="1681857828161" duration="21000" />
+      <workItem from="1681857964387" duration="3024000" />
+      <workItem from="1681945038686" duration="3706000" />
+      <workItem from="1682314778292" duration="449000" />
+      <workItem from="1682315244460" duration="33000" />
+      <workItem from="1682383573711" duration="9537000" />
+      <workItem from="1682463816155" duration="2192000" />
+      <workItem from="1682634303733" duration="5812000" />
+      <workItem from="1682996842773" duration="1425000" />
+      <workItem from="1683067114075" duration="4411000" />
+      <workItem from="1683072959945" duration="500000" />
+      <workItem from="1683073481345" duration="93000" />
+      <workItem from="1683152660578" duration="3997000" />
+      <workItem from="1683500735292" duration="3017000" />
+      <workItem from="1683584663795" duration="5219000" />
+      <workItem from="1683670946513" duration="43000" />
+      <workItem from="1683760048351" duration="3149000" />
+      <workItem from="1683845252993" duration="572000" />
+      <workItem from="1684104159270" duration="1120000" />
+      <workItem from="1684193649162" duration="2789000" />
+      <workItem from="1684275710855" duration="20000" />
+      <workItem from="1684715340587" duration="4844000" />
+      <workItem from="1684886640305" duration="116000" />
+      <workItem from="1685595002172" duration="2387000" />
+      <workItem from="1685682724488" duration="684000" />
+      <workItem from="1685694863481" duration="41000" />
+      <workItem from="1685696286066" duration="20000" />
+      <workItem from="1685696342629" duration="60000" />
+      <workItem from="1685919931656" duration="386000" />
     </task>
+    <task id="LOCAL-00001" summary="Bj Ex10813">
+      <created>1679615955274</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679615955274</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Bj Ex10811 ~ing">
+      <created>1679880669929</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679880669929</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bj Ex10811 ~ing">
+      <created>1679880715208</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679880715208</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Bj Ex10811 end">
+      <created>1679882891214</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679882891214</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Bj Ex1546">
+      <created>1679961084161</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679961084161</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Bj Ex27866">
+      <created>1680047176556</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680047176556</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Bj Ex27866ver2">
+      <created>1680047826917</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680047826917</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Bj Ex27866ver2">
+      <created>1680047866078</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680047866078</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Bj Ex2743">
+      <created>1680133646171</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680133646171</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Bj Ex9086 BufferdReader">
+      <created>1680217105177</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680217105177</updated>
+    </task>
+    <task id="LOCAL-00011" summary="2023.04.03 백준 10809문제 풀이">
+      <created>1680480150203</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680480150203</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2023.04.04 줄 수 입력 받아서 *로 x자 모양 출력">
+      <created>1680564683158</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680564683158</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2023.04.05 알파뱃 축출해서 횟수 입력 받아서 횟수만큼 출력&#10;백준 2675번 문제">
+      <created>1680653005565</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680653005565</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2023.04.06 &#10;약수(factor) 배수(multiple) 약수배수 아닌 것(neither) 구분&#10;백준 5086번 문제">
+      <created>1680753164514</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680753164514</updated>
+    </task>
+    <task id="LOCAL-00015" summary="2023.04.06 &#10;약수(factor) 배수(multiple) 약수배수 아닌 것(neither) 구분&#10;백준 5086번 문제">
+      <created>1680753222968</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680753222968</updated>
+    </task>
+    <task id="LOCAL-00016" summary="2023.04.07 &#10;과제 작은 순서로 정렬">
+      <created>1680823867259</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680823867259</updated>
+    </task>
+    <task id="LOCAL-00017" summary="2023.04.07 &#10;과제 작은 순서로 정렬">
+      <created>1680823920279</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680823920279</updated>
+    </task>
+    <task id="LOCAL-00018" summary="2023.04.11&#10;백준 1152번 한줄 &quot; &quot; 기준으로 단어 세기&#10;Scanner로 먼저 해보고 BufferedReader으로 시간 개선">
+      <created>1681168641665</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681168641666</updated>
+    </task>
+    <task id="LOCAL-00019" summary="2023.04.12&#10;버블정렬, 최소값, 최대값, 평균값 도출">
+      <created>1681265717113</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1681265717113</updated>
+    </task>
+    <task id="LOCAL-00020" summary="2023.04.13&#10;백준 2908 &#10;3자리 숫자 2개 주어 졌을 때&#10;각 숫자의 앞뒤 번호(100의자리 1의자리) 바꾸고 크기&#10;비교 후 큰 값 도출">
+      <created>1681349221395</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1681349221395</updated>
+    </task>
+    <task id="LOCAL-00021" summary="2023.04.14&#10;백준 5622 &#10;입력값 단어&#10;전화 번호 대칭해서 입력 시간 출력&#10;1~9번까지 2초 1칸마다 +1초">
+      <created>1681433335341</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1681433335341</updated>
+    </task>
+    <task id="LOCAL-00022" summary="2023.04.17&#10;백준 11718번 &#10;입력값 단어&#10;입력대로 출력&#10;입력되는 단어의 수는 랜덤">
+      <created>1681715747123</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681715747124</updated>
+    </task>
+    <task id="LOCAL-00023" summary="2023.04.18&#10;백준 25083번 &#10;자바 새싹 모양 출력&#10;print로 한줄로 출력">
+      <created>1681783615652</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1681783615652</updated>
+    </task>
+    <task id="LOCAL-00024" summary="2023.04.19&#10;백준 3003번 &#10;체스말 갯수 찾기(6종류)">
+      <created>1681860425727</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1681860425727</updated>
+    </task>
+    <task id="LOCAL-00025" summary="2023.04.19&#10;백준 3003번 &#10;체스말 갯수 찾기(6종류)">
+      <created>1681860586261</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1681860586261</updated>
+    </task>
+    <task id="LOCAL-00026" summary="2023.04.19&#10;백준 3003번 &#10;체스말 갯수 찾기(6종류)">
+      <created>1681860753873</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1681860753873</updated>
+    </task>
+    <task id="LOCAL-00027" summary="2023.04.20&#10;백준 2444번 &#10;마름모 * 찍기">
+      <created>1681948688342</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1681948688342</updated>
+    </task>
+    <task id="LOCAL-00028" summary="2023.04.20&#10;백준 2444번 &#10;중앙 입력값 받아서 마름모 * 찍기">
+      <created>1681948736033</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1681948736033</updated>
+    </task>
+    <task id="LOCAL-00029" summary="중복제거">
+      <created>1682315272057</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1682315272057</updated>
+    </task>
+    <task id="LOCAL-00030" summary="04.28 잔디심기&#10;백준 10812&#10;배열 전부하고&#10;시작 중간 끝값&#10;받아서 조건에 맞게 재배열하기">
+      <created>1682640321267</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1682640321267</updated>
+    </task>
+    <task id="LOCAL-00031" summary="05.02 잔디심기&#10;백준 1157&#10;영어 단어를 받아서 제일 사용 횟수가 많은 영어 단어 출력&#10;반복 횟수가 같으면 ? 출력">
+      <created>1682998247875</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1682998247875</updated>
+    </task>
+    <task id="LOCAL-00032" summary="05.04 잔디심기&#10;백준 4344&#10;입력 된 값 평균보다 높은 점수를 갖는 사람의 비율&#10;(%기준으로)을 출력&#10;&lt;각 줄(Line) 마다 새로운 집단&gt;">
+      <created>1683156627547</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1683156627547</updated>
+    </task>
+    <task id="LOCAL-00033" summary="05.08 잔디심기&#10;백준 1316&#10;첫 줄에 단어의 수 &lt;줄(Line) 수&gt; 제시&#10;단어의 연속성 여부 체크&#10;그룹 단어(연속성 만족하는 단어)의 갯수 출력">
+      <created>1683503713536</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1683503713537</updated>
+    </task>
+    <task id="LOCAL-00034" summary="05.09 잔디심기&#10;백준 25206&#10;과목 20개 주어지고&#10;각 과목 별로 주어진 학점, 평점을 조건에 맞게&#10;계산해서 점수를 도출하시오.">
+      <created>1683589690468</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1683589690468</updated>
+    </task>
+    <task id="LOCAL-00035" summary="05.11 잔디심기&#10;백준 2738&#10;행렬 주어지고 행렬의 합 구하기&#10;3차원 배열을 써야하는거 같지만 2차원 배열만 사용">
+      <created>1683763171976</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1683763171976</updated>
+    </task>
+    <task id="LOCAL-00036" summary="05.15 잔디심기&#10;백준 10815&#10;입력값 받고 중복 없이 처리하여&#10;내용을 포함하고 있는지 여부 구분 하기&#10;(HashSet과 메서드.contains를 활용)">
+      <created>1684105252684</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1684105252684</updated>
+    </task>
+    <task id="LOCAL-00037" summary="05.16 잔디심기&#10;백준 14425&#10;단어 입력 받고&#10;입력된 단어가 얼마나 쓰였는지 횟수 출력&#10;&lt;ArrayList는 항상 처음부터 확인해서 속도가 늦어짐&#10;문제에서 제시하는 속도를 출력하기 위해 &#10;HashMap사용&gt;">
+      <created>1684203846800</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1684203846800</updated>
+    </task>
+    <task id="LOCAL-00038" summary="05.22 잔디심기&#10;'('과')'의 입력을 받고&#10;()이 쌍으로 이루어져 있다면&lt;제대로 열리고&#10;제대로 닫혀있다면&gt; &quot;YES&quot;출력&#10;아니라면 &quot;NO&quot; 출력&#10;stack활용해서 출력">
+      <created>1684721201340</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1684721201340</updated>
+    </task>
+    <task id="LOCAL-00039" summary="06.01 잔디 심기&#10;N!(팩토리얼) 코딩">
+      <created>1685597973535</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1685597973535</updated>
+    </task>
+    <task id="LOCAL-00040" summary="06.02 잔디 심기&#10;백준 2558&#10;두 수 입력 받아서 합 구하기&#10;[메소드로 구현해 봄]">
+      <created>1685683381011</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1685683381011</updated>
+    </task>
+    <task id="LOCAL-00041" summary="06.05 잔디 심기&#10;백준 10813&#10;세 정수 입력받고 두번 째로 큰 정수 출력">
+      <created>1685920311150</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1685920311150</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2023.04.05 알파뱃 축출해서 횟수 입력 받아서 횟수만큼 출력&#10;백준 2675번 문제" />
+    <MESSAGE value="2023.04.06 &#10;약수(factor) 배수(multiple) 약수배수 아닌 것(neither) 구분&#10;백준 5086번 문제" />
+    <MESSAGE value="2023.04.07 &#10;과제 작은 순서로 정렬" />
+    <MESSAGE value="2023.04.11&#10;백준 1152번 한줄 &quot; &quot; 기준으로 단어 세기&#10;Scanner로 먼저 해보고 BufferedReader으로 시간 개선" />
+    <MESSAGE value="2023.04.12&#10;버블정렬, 최소값, 최대값, 평균값 도출" />
+    <MESSAGE value="2023.04.13&#10;백준 2908 &#10;3자리 숫자 2개 주어 졌을 때&#10;각 숫자의 앞뒤 번호(100의자리 1의자리) 바꾸고 크기&#10;비교 후 큰 값 도출" />
+    <MESSAGE value="2023.04.14&#10;백준 5622 &#10;입력값 단어&#10;전화 번호 대칭해서 입력 시간 출력&#10;1~9번까지 2초 1칸마다 +1초" />
+    <MESSAGE value="2023.04.17&#10;백준 11718번 &#10;입력값 단어&#10;입력대로 출력&#10;입력되는 단어의 수는 랜덤" />
+    <MESSAGE value="2023.04.18&#10;백준 25083번 &#10;자바 새싹 모양 출력&#10;print로 한줄로 출력" />
+    <MESSAGE value="2023.04.19&#10;백준 3003번 &#10;체스말 갯수 찾기(6종류)" />
+    <MESSAGE value="2023.04.20&#10;백준 2444번 &#10;마름모 * 찍기" />
+    <MESSAGE value="2023.04.20&#10;백준 2444번 &#10;중앙 입력값 받아서 마름모 * 찍기" />
+    <MESSAGE value="중복제거" />
+    <MESSAGE value="04.28 잔디심기&#10;백준 10812&#10;배열 전부하고&#10;시작 중간 끝값&#10;받아서 조건에 맞게 재배열하기" />
+    <MESSAGE value="05.02 잔디심기&#10;백준 1157&#10;영어 단어를 받아서 제일 사용 횟수가 많은 영어 단어 출력&#10;반복 횟수가 같으면 ? 출력" />
+    <MESSAGE value="05.04 잔디심기&#10;백준 4344&#10;입력 된 값 평균보다 높은 점수를 갖는 사람의 비율&#10;(%기준으로)을 출력&#10;&lt;각 줄(Line) 마다 새로운 집단&gt;" />
+    <MESSAGE value="05.08 잔디심기&#10;백준 1316&#10;첫 줄에 단어의 수 &lt;줄(Line) 수&gt; 제시&#10;단어의 연속성 여부 체크&#10;그룹 단어(연속성 만족하는 단어)의 갯수 출력" />
+    <MESSAGE value="05.09 잔디심기&#10;백준 25206&#10;과목 20개 주어지고&#10;각 과목 별로 주어진 학점, 평점을 조건에 맞게&#10;계산해서 점수를 도출하시오." />
+    <MESSAGE value="05.11 잔디심기&#10;백준 2738&#10;행렬 주어지고 행렬의 합 구하기&#10;3차원 배열을 써야하는거 같지만 2차원 배열만 사용" />
+    <MESSAGE value="05.15 잔디심기&#10;백준 10815&#10;입력값 받고 중복 없이 처리하여&#10;내용을 포함하고 있는지 여부 구분 하기&#10;(HashSet과 메서드.contains를 활용)" />
+    <MESSAGE value="05.16 잔디심기&#10;백준 14425&#10;단어 입력 받고&#10;입력된 단어가 얼마나 쓰였는지 횟수 출력&#10;&lt;ArrayList는 항상 처음부터 확인해서 속도가 늦어짐&#10;문제에서 제시하는 속도를 출력하기 위해 &#10;HashMap사용&gt;" />
+    <MESSAGE value="05.22 잔디심기&#10;'('과')'의 입력을 받고&#10;()이 쌍으로 이루어져 있다면&lt;제대로 열리고&#10;제대로 닫혀있다면&gt; &quot;YES&quot;출력&#10;아니라면 &quot;NO&quot; 출력&#10;stack활용해서 출력" />
+    <MESSAGE value="06.01 잔디 심기&#10;N!(팩토리얼) 코딩" />
+    <MESSAGE value="06.02 잔디 심기&#10;백준 2558&#10;두 수 입력 받아서 합 구하기&#10;[메소드로 구현해 봄]" />
+    <MESSAGE value="06.05 잔디 심기&#10;백준 10813&#10;세 정수 입력받고 두번 째로 큰 정수 출력" />
+    <option name="LAST_COMMIT_MESSAGE" value="06.05 잔디 심기&#10;백준 10813&#10;세 정수 입력받고 두번 째로 큰 정수 출력" />
   </component>
 </project>
