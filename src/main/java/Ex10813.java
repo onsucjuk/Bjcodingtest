@@ -32,4 +32,4 @@ public class Ex10813 {
             System.out.print(arr[k] + " ");
         }
     }
-
+}
